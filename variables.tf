@@ -10,6 +10,26 @@ variable "instance_count" {
   type        = number
 }
 
+variable "fe_access_key" {  
+  type = string
+  description = "Access KEY"
+}
+
+variable "fe_secret_key" {  
+  type = string
+  description = "Secret KEY"
+}
+
+variable "fe_domain_name" {  
+  type = string
+  description = "Domain of Flexible Engine"
+}
+
+variable "fe_region" {  
+  type = string
+  description = "Region"
+}
+
 ### VPC settings
 
 variable "network_uuid" {

@@ -1,10 +1,10 @@
 # provider.tf
 # Configure the FlexibleEngine Provider with Username/Password 
 provider "flexibleengine" {
-  access_key  = var.access_key
-  secret_key  = var.secret_key
-  domain_name = var.domain_name
-  region      = var.region
+  access_key  = var.fe_access_key
+  secret_key  = var.fe_secret_key
+  domain_name = var.fe_domain_name
+  region      = var.fe_region
 }
 
 # provider.tf
